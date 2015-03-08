@@ -1,0 +1,2 @@
+C:\superchat\obj\Debug\superchat.njsprojResolveAssemblyReference.cache
+C:\superchat\bin\Microsoft.NodejsTools.WebRole.dll
