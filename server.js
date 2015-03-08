@@ -13,7 +13,7 @@ app.get('/css/index.css', function (req, res) {
     res.sendFile(__dirname + css + 'index.css');
 });
 
-/* io.on('connection', function(socket){
+ io.on('connection', function(socket){
     console.log('a user connected');
     socket.on('disconnect', function () {
         console.log('user disconnected');
@@ -27,7 +27,6 @@ io.on('connection', function (socket) {
     });
 });
 
-*/
 http.listen(port, function () {
     console.log('Server stated on port ' + port);
 });
